@@ -33,6 +33,14 @@ namespace CarClassExample
             
         }
 
+        public float FillUp()
+        {
+            float gasDifference = 13 - GasLevel;
+            GasLevel = 13;
+
+            return gasDifference;
+        }
+
 
     }
 }
