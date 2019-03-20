@@ -41,6 +41,14 @@ namespace CarClassExample
             return gasDifference;
         }
 
+        public Car()
+        {
+            Random rand = new Random();
+            GasLevel = rand.Next(0, 14);
+            
+
+        }
+
 
     }
 }
