@@ -10,7 +10,9 @@ namespace CarClassExample
             Console.WriteLine("Hello World!");
             Car car = new Car();
 
-            car.GasLevel = -5.55f;
+            car.GasLevel = 10f;
+            car.AddGas(10);
+
         }
     }
 }
